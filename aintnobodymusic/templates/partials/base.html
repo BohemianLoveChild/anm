@@ -1,6 +1,6 @@
 {# ------------------------------------------------------- #}
 
-{# BASE TEMPLATE. EVERYTHING GETS LOADED INTO THIS PAGE. #}
+{# YOUR BASE TEMPLATE. EVERYTHING GETS LOADED INTO THIS PAGE. #}
 
 {# Webhook uses the SWIG.js (like Djagno/Twig) templating system. Their documentation is here: #}
 {# http://paularmstrong.github.io/swig/docs/tags/ #}
@@ -40,9 +40,9 @@
     {# http://www.webhook.com/docs/minify-your-js-and-css/ #}
 
     <!-- build:css /static/css/minified.css -->
-    <link rel="stylesheet" href="/static/css/player/mediaelementplayer.css" media="all" />
-    <link rel="stylesheet" href="/static/css/player/share-links.css" media="all" />
-    <link rel="stylesheet" href="/static/css/app.css" media="all" />
+    <link rel="stylesheet" href="/static/css/mediaelement/mediaelementplayer.css" media="all"/>
+    <link rel="stylesheet" href="/static/css/mediaelement/share-links.css" media="all" />
+    <link rel="stylesheet" href="/static/css/app.css"/>
     <link rel="stylesheet" href="/static/css/wysiwyg_figures.css"/>
     <!-- endbuild -->
 
@@ -84,9 +84,9 @@
       {# http://www.webhook.com/docs/minify-your-js-and-css/ #}
 
       <!-- build:js /static/javascript/minified.js -->
-      <script src="/static/javascript/player/mediaelement-and-player.min.js"></script>
-      <script src="/static/javascript/player/mejs-feature-backlight.js"></script>
-      <script src="/static/javascript/player/mejs-feature-share-links.js"></script>
+      <script src="/static/javascript/mediaelement/mediaelement-and-player.min.js"></script>
+      <script src="/static/javascript/mediaelement/mejs-feature-backlight.js"></script>
+      <script src="/static/javascript/mediaelement/mejs-feature-share-links.js"></script>
       <script src="/static/javascript/main.js"></script>
       
       <!-- endbuild -->
